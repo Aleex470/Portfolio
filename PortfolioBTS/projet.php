@@ -20,17 +20,15 @@
                 <div class="card__projet">
                     <div class="image__projet">
                         <img class="img__projet" src="Images/amex.png" alt="">
-                        <div class="dots__projet">
+                        <!-- <div class="dots__projet">
                             <i class="uil uil-html5"></i>
                             <i class="uil uil-css3-simple"></i>
                             <i class="uil uil-java-script"></i>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="infos__projet">
                         <span class="name__projet">AMEX </span>
-                        <span class="lorem__projet">Lorem ipsum dolor sit amet, sit amet adipiscing elit. Aenean vel ansd . Nullam
-                            lorem. Nulla eu
-                            sodales</span>
+                        <span class="lorem__projet">Réalisation d'un site d'expert comptable pour l'entreprise AMEX.</span>
                     </div>
                     <a href="projet-amex.php" class="btn-contact__projet">Voir le projet</a>
                 </div>
@@ -41,18 +39,18 @@
             <label class="label__projet" for="s2" id="slide2__projet">
                 <div class="card__projet">
                     <div class="image__projet">
-                        <img class="img__projet" src="img/Free run flyknit.jpg" alt="">
-                        <div class="dots__projet">
+                        <img class="img__projet" src="./Images/ScilyLinesLogo.png" alt="">
+                        <!-- <div class="dots__projet">
                             <i class="uil uil-html5"></i>
                             <i class="uil uil-css3-simple"></i>
                             <i class="uil uil-java-script"></i>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="infos__projet">
                         <span class="name__projet">Sycylilines</span>
-                        <span class="lorem__projet">Lorem ipsum dolor sit, adipiscing elit. Aenean vel sit ansd . Nullam
-                            lorem. Nulla eu
-                            sodales karma stellus</span>
+                        <span class="lorem__projet">Projet réaliser en cours tout au long de l'année 2022-2023 sur une application de réservation en ligne
+                            de bateau.
+                        </span>
                     </div>
                     <a href="/contact" class="btn-contact__projet">Voir le projet</a>
                 </div>
@@ -64,18 +62,17 @@
             <label class="label__projet" for="s3" id="slide3__projet">
                 <div class="card__projet">
                     <div class="image__projet">
-                        <img class="img__projet" src="img/Black Toe Union.jpg" alt="">
-                        <div class="dots__projet">
+                        <img class="img__projet" src="./Images/logo_HTS.png" alt="">
+                        <!-- <div class=" dots__projet">
                             <i class="uil uil-html5"></i>
                             <i class="uil uil-css3-simple"></i>
                             <i class="uil uil-java-script"></i>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="infos__projet">
                         <span class="name__projet">High Tech Station </span>
-                        <span class="lorem__projet">Lorem ipsum dolor, sit amet let kar adipiscing. Aenean vel velit sit ansd .
-                            Nullam
-                            lorem. Nulla karma stellus</span>
+                        <span class="lorem__projet">Refonte du site site de l'entreprise High Tech Station lors de mon stage
+                            en 2ème année de BTS SIO SLAM.</span>
                     </div>
                     <a href="/contact" class="btn-contact__projet">Voir le projet</a>
                 </div>
@@ -87,18 +84,16 @@
             <label class="label__projet" for="s4" id="slide4__projet">
                 <div class="card__projet">
                     <div class="image__projet">
-                        <img class="img__projet" src="img/Retro High Og.jpg" alt="">
-                        <div class="dots__projet">
+                        <img class="img__projet" src="./Images/LogoLesArchers.jpg" alt="">
+                        <!-- <div class="dots__projet">
                             <i class="uil uil-html5"></i>
                             <i class="uil uil-css3-simple"></i>
                             <i class="uil uil-java-script"></i>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="infos__projet">
                         <span class="name__projet">Site Hôtel</span>
-                        <span class="lorem__projet">Lorem ipsum dolor sit, sit amet elit. Aenean sit amet sit amet vel velit sit
-                            ansd. Nulla eu
-                            sodales stellus</span>
+                        <span class="lorem__projet">Refonte intégrale du site de l'hôtel les archers lors de mon stage de première année de BTS SIO SLAM.</span>
                     </div>
                     <a href="/contact" class="btn-contact__projet">Voir le projet</a>
                 </div>
@@ -111,17 +106,15 @@
                 <div class="card__projet">
                     <div class="image__projet">
                         <img class="img__projet" src="img/Off-White x Air Jordan.jpg" alt="">
-                        <div class="dots__projet">
+                        <!-- <div class="dots__projet">
                             <i class="uil uil-html5"></i>
                             <i class="uil uil-css3-simple"></i>
                             <i class="uil uil-java-script"></i>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="infos__projet">
                         <span class="name__projet">ECEFRAM</span>
-                        <span class="lorem__projet">Lorem ipsum sit amet, sit amet elit. Aenean vel velit ansd . Nullam
-                            lorem. Nulla eu
-                            sodales stellus</span>
+                        <span class="lorem__projet">Refonte du site de l'association ECEFRAM lors de mon stage de première année de BTS SIO SLAM.</span>
                     </div>
                     <a href="/contact" class="btn-contact__projet">Voir le projet</a>
                 </div>

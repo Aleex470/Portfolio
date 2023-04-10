@@ -32,11 +32,22 @@ include 'header.php';
             height: 300px;
             border: 1px solid var(--first-color);
         }
+
+        .header__fond {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            object-fit: cover;
+            margin: auto;
+        }
     </style>
 
 
 
     <div class="container__leProjet container grid">
+
+        <img class="header__fond" src="Images/amex.png" alt="">
 
         <div class="element">
 

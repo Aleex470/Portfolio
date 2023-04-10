@@ -12,13 +12,19 @@
 
                     <li class="nav__item">
                         <a href="./index.php#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> CV
+                            <i class="uil uil-user nav__icon"></i> Profil
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="./index.php#skills" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> Compétences
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="./index.php#parcours" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Parcours
                         </a>
                     </li>
 

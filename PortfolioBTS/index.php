@@ -1,6 +1,6 @@
 <?php
 
-include 'head.php';
+require 'head.php';
 
 ?>
 
@@ -23,7 +23,7 @@ include 'head.php';
         <section class="home section" id="home">
 
             <div class="home__container container grid">
-                <div class="home__content grid">
+                <div class="home__content ">
                     <div class="home__social">
                         <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
@@ -70,29 +70,29 @@ include 'head.php';
 
         <!-- ABOUT -->
         <section class="about section" id="about">
-            <h2 class="section__title">Mon CV</h2>
+            <h2 class="section__title">Mon profil</h2>
             <span class="section__subtitle">Vous pouvez télecharger mon CV</span>
 
             <div class="about__container container grid">
                 <img src="Images/CV BTS2.png" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Développeur web débutant.<br> Je suis actuellement en recherche d'un
-                        stage d'une duréee de 5 semaines. </p>
+                    <p class="about__description">Etudiant en BTS SIO option SLAM.<br> Je suis actuellement en recherche d'une
+                        alternance pour l'année 2023-2024. </p>
 
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">1+</span>
+                            <span class="about__info-title">3+</span>
                             <span class="about__info-name">Année <br> d'experience </span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">0+</span>
+                            <span class="about__info-title">5+</span>
                             <span class="about__info-name">Projet <br> terminé </span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">1+</span>
+                            <span class="about__info-title">3+</span>
                             <span class="about__info-name">Entreprise <br>travaillé </span>
                         </div>
                     </div>
@@ -185,7 +185,14 @@ include 'head.php';
                         <li>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Symphony</h3>
+                                    <h3 class="skills__name">Symfony</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C#</h3>
                                 </div>
                             </div>
                         </li>
@@ -199,9 +206,9 @@ include 'head.php';
                     <a href="#" aria-label="Catégorie Frontend">
                         <div class="circle__container">
                             <div class="circle"></div>
-                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <i class="uil uil-desktop skills__icon"></i>
                         </div>
-                        <h2>Cybersécurité</h2>
+                        <h2>Conception</h2>
                     </a>
                     <ul>
                         <li>
@@ -209,7 +216,7 @@ include 'head.php';
                             <div class="skills__list">
                                 <div class="skills__data">
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
+                                        <h3 class="skills__name">SQL</h3>
                                     </div>
                                 </div>
                                 </p>
@@ -217,14 +224,14 @@ include 'head.php';
                         <li>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">CSS</h3>
+                                    <h3 class="skills__name">UML</h3>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
+                                    <h3 class="skills__name">Uizzard</h3>
                                 </div>
                             </div>
                         </li>
@@ -238,11 +245,11 @@ include 'head.php';
 
         <!-- Parcours -->
 
-        <section class="qualification section">
+        <section class="qualification section" id="parcours">
             <h2 class="section__title">Parcours</h2>
             <span class="section__subtitle">Mon parcours scolaire et professionnel</span>
 
-            <div class="container">
+            <div class="container parcours__container">
                 <div class="timeline">
 
                     <div class="timeline__container left-container">
@@ -250,11 +257,11 @@ include 'head.php';
                         <i class="uil uil-graduation-cap qualification__icon"></i>
 
                         <div class="timeline__text-box">
-                            <h2 class="qualification__title">Baccalauréat ES</h2>
-                            <span class="qualification__subtitle">Lycée Charles Baudelaire</span>
+                            <h2 class="qualification__title">Brevet des collèges</h2>
+                            <span class="qualification__subtitle">Collège Stendhal, Fosses</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2016 - 2020
+                                2012 - 2016
                             </div>
                         </div>
                     </div>
@@ -265,8 +272,23 @@ include 'head.php';
                         <i class="uil uil-bag qualification__icon"></i>
 
                         <div class="timeline__text-box">
+                            <h2 class="qualification__title">Stage d'observation - Agent immobilier</h2>
+                            <span class="qualification__subtitle">Orpi Val d'Immo, Fosses</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2016 (2 semaines)
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="timeline__container left-container">
+
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+
+                        <div class="timeline__text-box">
                             <h2 class="qualification__title">Baccalauréat ES</h2>
-                            <span class="qualification__subtitle">Lycée polyvalent Charles Baudelaire</span>
+                            <span class="qualification__subtitle">Lycée Charles Baudelaire, Fosses</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
                                 2016 - 2020
@@ -295,11 +317,39 @@ include 'head.php';
                         <i class="uil uil-bag qualification__icon"></i>
 
                         <div class="timeline__text-box">
-                            <h2 class="qualification__title">Baccalauréat ES</h2>
-                            <span class="qualification__subtitle">Lycée Charles Baudelaire</span>
+                            <h2 class="qualification__title">Stage développement web</h2>
+                            <span class="qualification__subtitle">Association ECEFRAM</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2016 - 2020
+                                2021 (1 mois)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline__container right-container">
+
+                        <i class="uil uil-bag qualification__icon"></i>
+
+                        <div class="timeline__text-box">
+                            <h2 class="qualification__title">Stage développement web</h2>
+                            <span class="qualification__subtitle">Société AS FINANCE</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022 (1 mois)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline__container right-container">
+
+                        <i class="uil uil-bag qualification__icon"></i>
+
+                        <div class="timeline__text-box">
+                            <h2 class="qualification__title">Stage développement web</h2>
+                            <span class="qualification__subtitle">High Tech Station</span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2023 (2 mois)
                             </div>
                         </div>
                     </div>
@@ -309,119 +359,79 @@ include 'head.php';
         </section>
 
 
-
-        <!-- <section class="qualification section">
-            <h2 class="section__title">Parcours</h2>
-            <span class="section__subtitle">Mon parcours scolaire et professionnel</span>
-
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#eductaion'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Education
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target='#work'>
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Travail
-                    </div>
-                </div>
-
-                <div class="qualification__sections">
-                     Qualification Content 1 
-        <div class="qualification__content qualification__active" data-content id="education">
-            Qualification 1
-            <div class="qualification__data">
-                <div>
-                    <h3 class="qualification__title">Baccalauréat ES</h3>
-                    <span class="qualification__subtitle">Lycée Charles Baudelaire</span>
-                    <div class="qualification__calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2016 - 2020
-                    </div>
-                </div>
-            </div>
-
-            <div class="time">
-                <span class="qualification__line"></span>
-
-                <span class="qualification__rounder"></span>
-
-                <span class="qualification__rounder"></span>
-
-                <span class="qualification__rounder"></span>
-
-            </div>
-
-
-
-
-            Qualification 2
-            <div class="qualification__data">
-                <div></div>
-
-                <div>
-                    <h3 class="qualification__title"> BTS SIO SLAM</h3>
-                    <span class="qualification__subtitle">Lycée de Cachan</span>
-                    <div class="qualification__calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2020 - 2023
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
-
-        Qualification Content 2
-        <div class="qualification__content" data-content id="work">
-            Qualification 1
-            <div class="qualification__data">
-                <div>
-
-                    <h3 class="qualification__title">Type Travail</h3>
-                    <span class="qualification__subtitle">Entreprise - Lieu </span>
-                    <div class="qualification__calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2020 - 2020
-                    </div>
-                </div>
-                <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                </div>
-            </div>
-
-
-            Qualification 2
-            <div class="qualification__data">
-                <div></div>
-
-                <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                </div>
-                <div>
-                    <h3 class="qualification__title">Type Travail</h3>
-                    <span class="qualification__subtitle">Entreprise - Lieu</span>
-                    <div class="qualification__calendar">
-                        <i class="uil uil-calendar-alt"></i>
-                        2020 - 2020
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        </div>
-        </div>
-        </section> -->
-
         <!-- Veille technologique -->
         <section class="veille section" id="veille">
             <h2 class="section__title">Veille technologique</h2>
             <span class="section__subtitle">Restez informé !</span>
+
+            <div class="container__veille">
+                <div class="definition__veille">
+                    <h3 class="title__veille">- Qu'est ce que la veille technologique ?</h3>
+                    <p class="description__veille">La veille technologique permet d’identifier ou d’anticiper des innovations par secteurs d’activité.
+                        Les sources de veille technologique constituent une information stratégique incontournable pour devancer, développer et exploiter des inventions.</p>
+                </div>
+            </div>
+
+            <div class="container__veille">
+                <div class="definition__veille">
+                    <h3 class="title__veille">- Les outils que j'utilise pour ma veille technologique</h3>
+                    <p class="description__veille">La veille technologique permet d’identifier ou d’anticiper des innovations par secteurs d’activité.
+                        Les sources de veille technologique constituent une information stratégique incontournable pour devancer, développer et exploiter des inventions.
+                    </p>
+
+                    <div class="outil__veille">
+
+                        <div class="card__outil">
+                            <img class="img__outil__veille" src="./Images/Feedly-logo.png" alt="">
+                            <h4>Feedly</h4>
+                        </div>
+
+                        <div class="card__outil">
+                            <img class="img__outil__veille" src="./Images/Feedly-logo.png" alt="">
+                            <h4>Google alert</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container__veille">
+                <div class="definition__veille">
+                    <h3 class="title__veille">- Sujet de veille technologique : Webdesign</h3>
+                    <p class="description__veille">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum consectetur praesentium,
+                        esse quasi sequi sed voluptates ab sapiente ratione cumque unde! Magnam ut suscipit provident sint voluptate, vel qui.</p>
+                </div>
+            </div>
+
+            <div class="container__veille">
+                <div class="definition__veille">
+                    <h3 class="title__veille">- Organisation de la veille technologique</h3>
+                    <p class="description__veille">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum consectetur praesentium,
+                        esse quasi sequi sed voluptates ab sapiente ratione cumque unde! Magnam ut suscipit provident sint voluptate, vel qui.</p>
+                </div>
+            </div>
+
+            <div class="container__veille">
+                <div class="definition__veille">
+                    <h3 class="title__veille">- Informations importantes</h3>
+                    <p class="description__veille">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum consectetur praesentium,
+                        esse quasi sequi sed voluptates ab sapiente ratione cumque unde! Magnam ut suscipit provident sint voluptate, vel qui.</p>
+
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container__veille ">
+                <a href="">Web Design</a>
+            </div>
+
+
+
 
         </section>
 
@@ -456,6 +466,7 @@ include 'head.php';
     ?>
 
     <script src="./js/main.js"></script>
+
 </body>
 
 </html>
