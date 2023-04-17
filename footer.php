@@ -8,22 +8,22 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#CV" class="footer__link">Profil</a>
+                        <a href="./index.html#CV" class="footer__link">Profil</a>
                     </li>
                     <li>
-                        <a href="#skills" class="footer__link">Compétences</a>
+                        <a href="./index.html#skills" class="footer__link">Compétences</a>
                     </li>
                     <li>
-                        <a href="#parcours" class="footer__link">Parcours</a>
+                        <a href="./index.html#parcours" class="footer__link">Parcours</a>
                     </li>
                     <li>
-                        <a href="#veille" class="footer__link">Veille</a>
+                        <a href="./index.html#veille" class="footer__link">Veille</a>
                     </li>
                     <li>
-                        <a href="#projets" class="footer__link">Projet</a>
+                        <a href="./index.html#projets" class="footer__link">Projet</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contact</a>
+                        <a href="./index.html#contact" class="footer__link">Contact</a>
                     </li>
                 </ul>
                 <div class="footer__socials">

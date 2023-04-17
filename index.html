@@ -45,43 +45,43 @@ require 'head.php';
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="./index.php#home" class="nav__link">
+                        <a href="./index.html#home" class="nav__link">
                             <i class="uil uil-estate nav__icon"></i> Accueil
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="./index.php#about" class="nav__link">
+                        <a href="./index.html#about" class="nav__link">
                             <i class="uil uil-user nav__icon"></i> Profil
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="./index.php#skills" class="nav__link">
+                        <a href="./index.html#skills" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> Compétences
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="./index.php#parcours" class="nav__link">
+                        <a href="./index.html#parcours" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> Parcours
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="./index.php#veille" class="nav__link">
+                        <a href="./index.html#veille" class="nav__link">
                             <i class="uil uil-briefcase-alt nav__icon"></i> Veille
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="./index.php#projets" class="nav__link">
+                        <a href="./index.html#projets" class="nav__link">
                             <i class="uil uil-scenery nav__icon"></i> Projets
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="./index.php#contact" class="nav__link">
+                        <a href="./index.html#contact" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> Contact
                         </a>
                     </li>
@@ -524,7 +524,7 @@ require 'head.php';
             <span class="section__subtitle">Découvrez les projets que j'ai réalisé</span>
         
         
-            <div class="container__projet">
+            <div class="container__projet" id="projet_ordi">
         
         
                 <input class="input__projet" type="radio" name="slider" class="d-none" id="s1" checked>
@@ -541,18 +541,13 @@ require 'head.php';
                         <div class="card__projet">
                             <div class="image__projet">
                                 <img class="img__projet" src="Images/amex.png" alt="">
-                                <!-- <div class="dots__projet">
-                                    <i class="uil uil-html5"></i>
-                                    <i class="uil uil-css3-simple"></i>
-                                    <i class="uil uil-java-script"></i>
-                                </div> -->
                             </div>
                             <div class="infos__projet">
                                 <span class="name__projet">AMEX </span>
                                 <span class="lorem__projet">Réalisation d'un site d'expert comptable pour l'entreprise
                                     AMEX.</span>
                             </div>
-                            <a href="projet-amex.php" class="btn-contact__projet">Voir le projet</a>
+                            <a href="./projet-amex.html" class="btn-contact__projet">Voir le projet</a>
                         </div>
                     </label>
         
@@ -562,20 +557,15 @@ require 'head.php';
                         <div class="card__projet">
                             <div class="image__projet">
                                 <img class="img__projet" src="./Images/ScilyLinesLogo.png" alt="">
-                                <!-- <div class="dots__projet">
-                                    <i class="uil uil-html5"></i>
-                                    <i class="uil uil-css3-simple"></i>
-                                    <i class="uil uil-java-script"></i>
-                                </div> -->
                             </div>
                             <div class="infos__projet">
-                                <span class="name__projet">Sycylilines</span>
+                                <span class="name__projet">Scilylines</span>
                                 <span class="lorem__projet">Projet réaliser en cours tout au long de l'année 2022-2023 sur une
                                     application de réservation en ligne
                                     de bateau.
                                 </span>
                             </div>
-                            <a href="/contact" class="btn-contact__projet">Voir le projet</a>
+                            <a href="./projet-scilylines.html" class="btn-contact__projet">Voir le projet</a>
                         </div>
                     </label>
         
@@ -586,11 +576,6 @@ require 'head.php';
                         <div class="card__projet">
                             <div class="image__projet">
                                 <img class="img__projet" src="./Images/logo_HTS.png" alt="">
-                                <!-- <div class=" dots__projet">
-                                    <i class="uil uil-html5"></i>
-                                    <i class="uil uil-css3-simple"></i>
-                                    <i class="uil uil-java-script"></i>
-                                </div> -->
                             </div>
                             <div class="infos__projet">
                                 <span class="name__projet">High Tech Station </span>
@@ -598,7 +583,7 @@ require 'head.php';
                                     stage
                                     en 2ème année de BTS SIO SLAM.</span>
                             </div>
-                            <a href="/contact" class="btn-contact__projet">Voir le projet</a>
+                            <a href="./projet-hts.html" class="btn-contact__projet">Voir le projet</a>
                         </div>
                     </label>
         
@@ -609,18 +594,13 @@ require 'head.php';
                         <div class="card__projet">
                             <div class="image__projet">
                                 <img class="img__projet" src="./Images/LogoLesArchers.jpg" alt="">
-                                <!-- <div class="dots__projet">
-                                    <i class="uil uil-html5"></i>
-                                    <i class="uil uil-css3-simple"></i>
-                                    <i class="uil uil-java-script"></i>
-                                </div> -->
                             </div>
                             <div class="infos__projet">
                                 <span class="name__projet">Site Hôtel</span>
                                 <span class="lorem__projet">Refonte intégrale du site de l'hôtel les archers lors de mon stage
                                     de première année de BTS SIO SLAM.</span>
                             </div>
-                            <a href="/contact" class="btn-contact__projet">Voir le projet</a>
+                            <a href="./projet-hotel.html" class="btn-contact__projet">Voir le projet</a>
                         </div>
                     </label>
         
@@ -630,37 +610,109 @@ require 'head.php';
                     <label class="label__projet" for="s5" id="slide5__projet">
                         <div class="card__projet">
                             <div class="image__projet">
-                                <img class="img__projet" src="img/Off-White x Air Jordan.jpg" alt="">
-                                <!-- <div class="dots__projet">
-                                    <i class="uil uil-html5"></i>
-                                    <i class="uil uil-css3-simple"></i>
-                                    <i class="uil uil-java-script"></i>
-                                </div> -->
+                                <img class="img__projet" src="./Images/bonbonLogo.jpg" alt="">
                             </div>
                             <div class="infos__projet">
-                                <span class="name__projet">ECEFRAM</span>
-                                <span class="lorem__projet">Refonte du site de l'association ECEFRAM lors de mon stage de
-                                    première année de BTS SIO SLAM.</span>
+                                <span class="name__projet">Bonbon</span>
+                                <span class="lorem__projet">Création d'un site de vente de bonbon en ligne lors de mon année scolaire 2021 - 2022.</span>
                             </div>
-                            <a href="/contact" class="btn-contact__projet">Voir le projet</a>
+                            <a href="./projet-bonbon.html" class="btn-contact__projet">Voir le projet</a>
                         </div>
                     </label>
                 </div>
         
             </div>
+
+            <div class="cards__projet__tel">
+
+                <!-- Projet tel 1 -->
+            
+                <div class="card__projet__tel">
+                    <div class="container__img__projet__tel">
+                        <img class="img__projet__tel" src="Images/amex.png" alt="">
+                    </div>
+                    <div class="infos__projet__tel">
+                        <span class="name__projet__tel">AMEX </span>
+                        <span class="lorem__projet__tel">Réalisation d'un site d'expert comptable pour l'entreprise
+                            AMEX.</span>
+                    </div>
+                    <a href="./projet-amex.html" class="btn-contact__projet__tel">Voir le projet</a>
+                </div>
+            
+                
+                    <!-- Projet tel 2 -->
+                
+                <div class="card__projet__tel">
+                    <div class="container__img__projet__tel">
+                        <img class="img__projet__tel" src="./Images/ScilyLinesLogo.png" alt="">
+                    </div>
+                    <div class="infos__projet__tel">
+                        <span class="name__projet__tel">Scilylines</span>
+                        <span class="lorem__projet__tel">Projet réaliser en cours tout au long de l'année 2022-2023 sur une
+                            application de réservation en ligne
+                            de bateau.
+                        </span>
+                    </div>
+                    <a href="./projet-scilylines.html" class="btn-contact__projet__tel">Voir le projet</a>
+                </div>
+
+                <!-- Projet tel 3 -->
+                
+                <label class="label__projet__tel" for="s3" id="slide3__projet__tel">
+                    <div class="card__projet__tel">
+                        <div class="image__projet__tel">
+                            <img class="img__projet__tel" src="./Images/logo_HTS.png" alt="">
+                        </div>
+                        <div class="infos__projet__tel">
+                            <span class="name__projet__tel">High Tech Station </span>
+                            <span class="lorem__projet__tel">Refonte du site site de l'entreprise High Tech Station lors de mon
+                                stage
+                                en 2ème année de BTS SIO SLAM.</span>
+                        </div>
+                        <a href="./projet-hts.html" class="btn-contact__projet__tel">Voir le projet</a>
+                    </div>
+                </label>
+                
+                
+                <!-- Projet tel 4 -->
+                
+                <label class="label__projet__tel" for="s4" id="slide4__projet__tel">
+                    <div class="card__projet__tel">
+                        <div class="image__projet__tel">
+                            <img class="img__projet__tel" src="./Images/LogoLesArchers.jpg" alt="">
+                        </div>
+                        <div class="infos__projet__tel">
+                            <span class="name__projet__tel">Site Hôtel</span>
+                            <span class="lorem__projet__tel">Refonte intégrale du site de l'hôtel les archers lors de mon stage
+                                de première année de BTS SIO SLAM.</span>
+                        </div>
+                        <a href="./projet-hotel.html" class="btn-contact__projet__tel">Voir le projet</a>
+                    </div>
+                </label>
+                
+                
+                <!-- Projet tel 5 -->
+                
+                <label class="label__projet__tel" for="s5" id="slide5__projet__tel">
+                    <div class="card__projet__tel">
+                        <div class="image__projet__tel">
+                            <img class="img__projet__tel" src="./Images/bonbonLogo.jpg" alt="">
+                        </div>
+                        <div class="infos__projet__tel">
+                            <span class="name__projet__tel">Bonbon</span>
+                            <span class="lorem__projet__tel">Création d'un site de vente de bonbon en ligne lors de mon année scolaire 2021 - 2022.</span>
+                        </div>
+                        <a href="./projet-bonbon.html" class="btn-contact__projet__tel">Voir le projet</a>
+                    </div>
+                </label>
+                </div>
+            
+            </div>
+
         
         </section>
 
 
-
-
-        <!-- CONTACT ME -->
-
-        <!-- <?php
-
-        include 'contact.php'
-
-        ?> -->
 
         <section class="contact section" id="contact">
             <h2 class="section__title">Me contacter</h2>
@@ -700,7 +752,7 @@ require 'head.php';
                     </div>
                 </div>
         
-                <form action="mail.php" class="contact__form grid">
+                <!-- <form action="mail.php" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label" name="nom">Nom</label><br>
@@ -723,10 +775,18 @@ require 'head.php';
                             Envoyer message
                             <i class="uil uil-message button__icon"></i>
                         </a>
-                        <input type="submit">Envoyer message
         
                     </div>
-                </form>
+                </form> -->
+
+                <div>
+                    <a href="#" class="button button--felx" type="submit">
+                        Envoyer message
+                        <i class="uil uil-message button__icon"></i>
+                    </a>
+
+                </div>
+
             </div>
         </section>
 
@@ -734,11 +794,51 @@ require 'head.php';
 
     <!-- FOOTER -->
 
-    <?php
-
-    include 'footer.php';
-
-    ?>
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Alexandre Visage</h1>
+                    <span class="footer__subtitle">Etudiant BTS SIO</span>
+                </div>
+    
+                <ul class="footer__links">
+                    <li>
+                        <a href="./index.html#CV" class="footer__link">Profil</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#skills" class="footer__link">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#parcours" class="footer__link">Parcours</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#veille" class="footer__link">Veille</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#projets" class="footer__link">Projet</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+    
+    
+            <p class="footer__copy">&#169; Tous les droits sont réservés, Alexandre Visage</p>
+        </div>
+    </footer>
 
     <script src="./js/main.js"></script>
 
