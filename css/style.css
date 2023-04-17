@@ -913,6 +913,7 @@ img {
 .footer__title {
     font-size: var(--h1-font-size);
     margin-bottom: var(--mb-0-25);
+    line-height: 36px;
 }
 
 .footer__subtitle {
@@ -1209,10 +1210,12 @@ img {
     .footer__links {
         flex-direction: row;
         column-gap: 2rem;
+        margin-top: 8px;
     }
 
     .footer__socials {
         justify-self: flex-end;
+        margin-top: 8px;
     }
 
     .footer__copy {
@@ -1695,7 +1698,7 @@ input.input__projet {
              align-items: center;
              justify-content: space-between;
              gap: 5rem;
-             margin: 5rem 0;
+             margin: 3rem 0;
          }
     
          .acces__pj {
@@ -1710,12 +1713,18 @@ input.input__projet {
              text-align: center;
              margin-top: 2rem;
          }
+
+        .list__projet {
+            margin: 20px 0 0 20px
+        }
     
          .list-admin {
              font-weight: 500;
+             margin: 10px 0;
              transition: .3s ease-out;
              cursor: pointer;
          }
+   
     
          .list-admin:hover {
              transform: translateX(10px);
