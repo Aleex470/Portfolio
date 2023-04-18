@@ -43,4 +43,20 @@ function darkTheme() {
 }
 
 
+// Wrapper veille
 
+const titles = document.querySelectorAll('.title__veille__wrapper');
+const items = document.querySelectorAll('.item__veille__wrapper');
+
+function showContent(event) {
+  const clickedTitle = event.target;
+  const filter = clickedTitle.dataset.filter;
+
+  titles.forEach((title) => title.classList.remove('active'));
+  clickedTitle.classList.add('active');
+
+  items.forEach((item) => item.classList.remove('active'));
+  document.querySelectorAll(filter).forEach((item) => item.classList.add('active'));
+}
+
+titles.forEach((title) => title.addEventListener('click', showContent));
