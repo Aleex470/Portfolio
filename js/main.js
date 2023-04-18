@@ -60,3 +60,28 @@ function showContent(event) {
 }
 
 titles.forEach((title) => title.addEventListener('click', showContent));
+
+
+
+// DEBUT FLECHE REMONTER //
+
+// let flecheRemonte = document.getElementById('icon-fleche');
+
+// 	function goToTopArrow() {
+// 	if (window.scrollY > 100){
+// 		flecheRemonte.style.display = 'block';
+// 	}else{
+// 		flecheRemonte.style.display = 'none';
+// 	}
+// 	}
+
+// 	goToTopArrow();
+// 	window.addEventListener('scroll', goToTopArrow);
+
+// 	flecheRemonte.addEventListener('click', ()=>{
+// 		window.scrollTo({
+// 			top: 0,
+// 			left: 0,
+// 			behavior: 'smooth',
+// 		})
+// 	});

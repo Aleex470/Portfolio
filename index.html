@@ -1,9 +1,3 @@
-<!-- <?php
-
-require 'head.php';
-
-?> -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,24 +17,17 @@ require 'head.php';
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
 
-    <title>Alexandre Visage </title>
+    <title>Portfolio BTS SIO SLAM - Alexandre Visage</title>
 
 
 </head>
 
 <body>
 
-    <!-- HEADER -->
-
-    <!-- <?php
-
-    include 'header.php';
-
-    ?> -->
 
         <header class="header" id="header">
         <nav class="nav container">
-            <a href="#home" class="nav__logo">Alexandre Visage</a>
+            <a href="#home" class="nav__logo">Portfolio</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -113,15 +100,15 @@ require 'head.php';
             <div class="home__container container grid">
                 <div class="home__content ">
                     <div class="home__social">
-                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/alexandrevisage470" target="_blank" class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
 
-                        <a href="https://dribble.com/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-dribbble"></i>
+                        <a href="https://codepen.io/Vleex" target="_blank" class="home__social-icon">
+                            <i class="uil uil-cube"></i>
                         </a>
 
-                        <a href="https://github.com/" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/Aleex470" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
                     </div>
@@ -147,7 +134,7 @@ require 'head.php';
                         <h1 class="home__title">Alexandre Visage</h1>
                         <h3 class="home__subtitle">Portfolio BTS SIO Solutions Logicielles et Application
                             Métier</h3>
-                        <p class="home__description">Etudiant</p>
+                        <p class="home__description">Etudiant au Lycée polyvalent de Cachan</p>
                         <a href="#contact" class="button button--flex">
                             Contactez moi <i class="uil uil-message button__icon"></i>
                         </a>
@@ -159,14 +146,16 @@ require 'head.php';
         <!-- ABOUT -->
         <section class="about section" id="about">
             <h2 class="section__title">Mon profil</h2>
-            <span class="section__subtitle">Vous pouvez télecharger mon CV</span>
+            <span class="section__subtitle">A propos de moi</span>
 
             <div class="about__container container grid">
                 <img src="Images/CV BTS2.png" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Etudiant en BTS SIO option SLAM.<br> Je suis actuellement en recherche d'une
-                        alternance pour l'année 2023-2024. </p>
+                    <p class="about__description">Je m'appelle Alexandre Visage, je suis âgé de 21 ans, je suis actuellement étudiant en BTS Services Informatique dans les Organisations option Solutions Logicielles et Application Métier au lycée polyvalent de Cachan.
+                        <br><br>
+                        Passionné par l'informatique, le design, et l'animation, c'est donc tout naturellement que je me suis engagé dans cette formation, avec pour objectif de devenir développeur frontend. 
+                        </p>
 
                     <div class="about__info">
                         <div>
@@ -202,7 +191,7 @@ require 'head.php';
 
         <section class="competences section" id="skills">
             <h2 class="section__title">Compétences</h2>
-            <span class="section__subtitle">Mon niveau dans chaque langage</span>
+            <span class="section__subtitle">Les différents langages, outils que je maîtrise</span>
 
             <ul class="list__container">
                 <li class="card__competences">
@@ -319,6 +308,44 @@ require 'head.php';
 
                     </ul>
                 </li>
+
+<li class="card__competences">
+    <a href="#" aria-label="Catégorie Frontend">
+        <div class="circle__container">
+            <div class="circle"></div>
+            <i class="uil uil-palette skills__icon"></i>
+        </div>
+        <h2>Outils</h2>
+    </a>
+    <ul>
+        <li>
+            <p>
+            <div class="skills__list">
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Visual Studio Code</h3>
+                    </div>
+                </div>
+                </p>
+        </li>
+        <li>
+            <div class="skills__data">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Visual Studio</h3>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="skills__data">
+                <div class="skills__titles">
+                    <h3 class="skills__name">GitHub</h3>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+</li>
+
             </ul>
         </section>
 
@@ -443,7 +470,7 @@ require 'head.php';
         <!-- Veille technologique -->
         <section class="veille section" id="veille">
             <h2 class="section__title">Veille technologique</h2>
-            <span class="section__subtitle">Restez informé !</span>
+            <span class="section__subtitle">Toujours rester informé !</span>
 
             <div class="container__veille">
                 <div class="definition__veille">
@@ -473,11 +500,6 @@ require 'head.php';
                             <h4>Youtube</h4>
                         </div>
 
-                        <div class="card__outil">
-                            <img class="img__outil__veille" src="./Images/youtube.png" alt="">
-                            <h4>Youtube</h4>
-                        </div>
-
                     </div>
 
                 </div>
@@ -498,6 +520,9 @@ require 'head.php';
                 <div class="definition__veille">
                     <h3 class="title__veille">- Organisation de la veille technologique</h3>
                     <p class="description__veille">Organiser sa veille technologique est essentiel pour collecter et traiter les informations de manière efficace.<br>
+                    J'ai pu organiser ma veille technologique grâce à la création de playlist sur youtube où je répertorie toutes les vidéos que je juge intéressante à regarder pour m'informer des dernières nouveautés, dernières mises à jour ou dernières tendances web.
+                    De plus, en m'abonnant à certaines personnes sur Youtube et en activant la "cloche", cela me permet de recevoir directement les notifications pour m'informer d'une sortie d'une nouvelle vidéo.
+                    Mais également grâce à la création de répertoire sur Feedly qui permettent d'afficher les dernières publications dans les thèmes que j'ai pu enregistrer.
                     </p>
                 </div>
             </div>
@@ -505,18 +530,93 @@ require 'head.php';
             <div class="container__veille">
                 <div class="definition__veille">
                     <h3 class="title__veille">- Informations importantes</h3>
-                    <p class="description__veille">Au court de ces années, j'ai pu observer et trier les sujet qui m'ont été le plus utile</p>
+                    <p class="description__veille">Au court de ces années, j'ai pu observer et trier les sujet qui m'ont été le plus utile. </p>
 
                     <div class="wrapper__veille">
                         <h3 class="title__veille__wrapper active" data-filter=".part-1">Feedly</h3>
                         <h3 class="title__veille__wrapper" data-filter=".part-2">Youtube</h3>
-                        <h3 class="title__veille__wrapper" data-filter=".part-3">Google alert</h3>
                     </div>
 
                     <div class="container__veille__wrapper">
                         <div class="part-1 item__veille__wrapper active">
                            
-                            Contenu de la partie 1
+                            <!-- Article 1 -->
+
+                            <div class="cards__wrapper">
+                                <div class="card__wrapper">
+                                    <a class="container__img__wrapper" target="_blank" href="https://www.lemondeinformatique.fr/actualites/lire-visual-studio-code-177-teste-le-chat-copilot-de-github-90036.html">
+                                        <img class="img__wrapper" src="./Images/Article3.png" alt="">
+                                    </a>
+                                    <div class="infos__card__wrapper">
+                                        <h3 class="title__card__wrapper">Visual Studio Code 1.77 teste le chat Copilot de GitHub</h3>
+                                        <!-- <p class="desc__card__wrapper">Description</p> -->
+                                        <p class="date__card__wrapper">03 Avril 2023</p>
+                            
+                                        <a class="btn__wrapper" target="_blank" href="https://www.lemondeinformatique.fr/actualites/lire-visual-studio-code-177-teste-le-chat-copilot-de-github-90036.html">
+                                            Voir
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Article 2 -->
+
+                            <div class="cards__wrapper">
+                                <div class="card__wrapper">
+                                    <a class="container__img__wrapper" target="_blank" href="https://jai-un-pote-dans-la.com/quelles-tendances-graphiques-ont-marque-lannee-2022/">
+                                        <img class="img__wrapper" src="./Images/Article1.png" alt="">
+                                    </a>
+                                    <div class="infos__card__wrapper">
+                                        <h3 class="title__card__wrapper">Quelles tendances graphiques ont marqué l’année 2022 ?</h3>
+                                        <!-- <p class="desc__card__wrapper">Description</p> -->
+                                        <p class="date__card__wrapper">16 décembre 2022</p>
+                            
+                                        <a class="btn__wrapper" target="_blank" href="https://jai-un-pote-dans-la.com/quelles-tendances-graphiques-ont-marque-lannee-2022/">
+                                            Voir
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Article 3 -->
+
+                            <div class="cards__wrapper">
+                                <div class="card__wrapper">
+                                    <a class="container__img__wrapper" target="_blank" href="https://www.dynamique-mag.com/article/les-tendances-enwebdesign">
+                                        <img class="img__wrapper" src="./Images/Article2.png" alt="">
+                                    </a>
+                                    <div class="infos__card__wrapper">
+                                        <h3 class="title__card__wrapper">Les tendances en webdesign</h3>
+                                        <!-- <p class="desc__card__wrapper">Description</p> -->
+                                        <p class="date__card__wrapper">28 mars 2023</p>
+                            
+                                        <a class="btn__wrapper" target="_blank" href="https://www.dynamique-mag.com/article/les-tendances-enwebdesign">
+                                            Voir
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Article 4 -->
+                            
+                            <div class="cards__wrapper">
+                                <div class="card__wrapper">
+                                    <a class="container__img__wrapper" target="_blank"
+                                        href="https://www.blogduwebdesign.com/banques-images-gratuites/">
+                                        <img class="img__wrapper" src="./Images/Article4.png" alt="">
+                                    </a>
+                                    <div class="infos__card__wrapper">
+                                        <h3 class="title__card__wrapper">Les meilleures banques d’images gratuites et libres de droits en 2023</h3>
+                                        <!-- <p class="desc__card__wrapper">Description</p> -->
+                                        <p class="date__card__wrapper">08 décembre 2022</p>
+                            
+                                        <a class="btn__wrapper" target="_blank"
+                                            href="https://www.blogduwebdesign.com/banques-images-gratuites/">
+                                            Voir
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 
@@ -533,7 +633,7 @@ require 'head.php';
                                         <p class="date__card__wrapper">23 janvier 2023</p>
 
                                         <a class="btn__wrapper" target="_blank" href="https://www.youtube.com/watch?v=Ibpp2yFp2N8">
-                                            Voir +
+                                            Voir 
                                         </a>
                                     </div>
                                 </div>
@@ -550,7 +650,7 @@ require 'head.php';
                                         <p class="date__card__wrapper">27 mars 2023</p>
                             
                                         <a class="btn__wrapper" target="_blank" href="https://www.youtube.com/watch?v=Oybe_KfOMhQ">
-                                            Voir +
+                                            Voir 
                                         </a>
                                     </div>
                                 </div>
@@ -567,7 +667,7 @@ require 'head.php';
                                         <p class="date__card__wrapper">22 janv. 2023</p>
                             
                                         <a class="btn__wrapper" target="_blank" href="https://www.youtube.com/watch?v=EhCM1tRaXOM&t=19s">
-                                            Voir +
+                                            Voir
                                         </a>
                                     </div>
                                 </div>
@@ -584,7 +684,7 @@ require 'head.php';
                                         <p class="date__card__wrapper">21 décembre 2022</p>
                             
                                         <a class="btn__wrapper" target="_blank" href="https://www.youtube.com/watch?v=jbMrZScik_U&t=276s">
-                                            Voir +
+                                            Voir 
                                         </a>
                                     </div>
                                 </div>
@@ -593,10 +693,6 @@ require 'head.php';
                         
                         </div>
 
-                        <div class="part-3 item__veille__wrapper">
-                            Contenu de la partie 3
-
-                        </div>
                     </div>
                     
                 </div>
@@ -829,7 +925,7 @@ require 'head.php';
                     </div>
 
                     <div>
-                        <a href="#" class="button button--felx" type="submit">
+                        <a href="mailto:alexvisage2001@gmail.com" class="button button--felx" type="submit">
                             Envoyer message
                             <i class="uil uil-message button__icon"></i>
                         </a>
@@ -900,7 +996,7 @@ require 'head.php';
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Alexandre Visage</h1>
-                    <span class="footer__subtitle">Etudiant BTS SIO</span>
+                    <span class="footer__subtitle">Portfolio BTS SIO SLAM</span>
                 </div>
     
                 <ul class="footer__links">
@@ -924,9 +1020,7 @@ require 'head.php';
                     </li>
                 </ul>
                 <div class="footer__socials">
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook-f"></i>
-                    </a>
+
                     <a href="https://www.twitter.com" target="_blank" class="footer__social">
                         <i class="uil uil-twitter-alt"></i>
                     </a>
@@ -940,6 +1034,10 @@ require 'head.php';
             <p class="footer__copy">&#169; Tous les droits sont réservés, Alexandre Visage</p>
         </div>
     </footer>
+
+        <!-- <div class="fleche-remonter">
+            <i class="uil uil-arrow-up icon-fleche"></i>
+        </div> -->
 
     <script src="./js/main.js"></script>
 
